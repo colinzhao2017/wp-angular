@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body{
+	font-family: Arial, sans-serif;	
+	font-size:16px;
+	line-height:24px;
+}
+h2{
+	margin:0;
+	padding:0;
+	font-size:24px;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom:25px;
+}
+h3{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom:10px;
+}
+img{
+	max-width:100%;
+}
+.clr{clear:both;}
+.top{
+	height:60px;
+	line-height:60px;
+	background:#FAFAFA;
+	border-bottom:1px solid #DDD;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	z-index:20;
+}
+.top h1{
+	height:60px;
+	line-height:60px;
+	margin:0;
+	padding:0;
+	font-size:24px;
+	font-family: 'Oswald', sans-serif;
+	float:left;
+}
+.top ul{
+	margin:0;
+	padding:0;
+	float:right;
+}
+.top ul li{
+	height:60px;
+	line-height:60px;
+	padding:0 25px;
+	display:inline-block; 
+}
+.top ul li a{
+	display:block;
+	color:#272727;
+	text-decoration:none;
+}
+.site_content{
+	margin-top:110px;
+}
+[ng-view]{
+	min-height:480px;
+}
+.categories{
+	margin-bottom:50px;
+}
+.category{
+	margin-bottom:15px;
+}
+.sidebar{
+	background:#FAFAFA;
+	border:1px solid #DDD;
+	width:100%;
+	padding:25px 15px;
+	margin-bottom:15px;
+}
+hr.seperator{
+	margin:50px 0;
+}
+[ztravel-thumb]{
+	float:left;
+	margin:0 15px 15px 0;
+}
+.fullsize_image{
+	margin-bottom:30px;
+}
+.footer{
+	margin-top:50px;
+	padding:50px;
+	background:#373737;
+	color:#FFF;
+}
